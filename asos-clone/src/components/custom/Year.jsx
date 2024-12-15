@@ -18,7 +18,12 @@ const Year=()=>{
             
             <Text 
               color="#666666" 
-              fontSize="12px" 
+              fontSize="12px"
+              cursor="pointer"
+              _hover={{
+                color: "blue",
+                transition: "color 0.3s ease",
+              }} 
             >
               Privacy & Cookies
             </Text>
@@ -26,11 +31,18 @@ const Year=()=>{
             <Text 
               color="#666666" 
               fontSize="12px" 
+              cursor="pointer"
+
               _before={{
                 content: '"|"',
                 marginRight: "15px",
                 color: "#666666",
                 width: "2px",
+              }}
+
+              _hover={{
+                color: "blue",
+                transition: "color 0.3s ease",
               }}
             >
                 Ts&Cs       
@@ -38,11 +50,16 @@ const Year=()=>{
             <Text 
               color="#666666" 
               fontSize="12px" 
+              cursor="pointer"
               _before={{
                 content: '"|"',
                 marginRight: "15px",
                 color: "#666666",
                 width: "2px",
+              }}
+              _hover={{
+                color: "blue",
+                transition: "color 0.3s ease",
               }}
             >
               Accessibility
