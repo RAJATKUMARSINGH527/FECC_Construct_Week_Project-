@@ -6,34 +6,258 @@ const Footer = () => {
   const block = "block"
   const marginTop = "15px"
   const fontSize = "12px"
+  const decoration="none"
+
 
 
   return (
     <Box bg="#EEEEEE" p="6">
-      <Grid marginLeft="100px" templateColumns="repeat(4, 1fr)" gap="4" marginTop="10px">
+      <Grid 
+        marginLeft="100px" 
+        templateColumns="repeat(4, 1fr)" 
+        gap="4" 
+        marginTop="10px"
+      >
         <GridItem color={textColor}>
-          <Text fontSize="14px" fontWeight="bold" letterSpacing="2px">HELP & INFORMATION</Text>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Help</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Track Order</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Delivery & Returns</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Sitemap</Link>
+
+          <Text 
+            fontSize="14px" 
+            fontWeight="bold" 
+            letterSpacing="2px"
+          >
+            HELP & INFORMATION
+          </Text>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          > Help
+          </Link>
+
+          <Link
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            Track Order
+          </Link>
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            Delivery & Returns
+          </Link>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            Sitemap
+          </Link>
+
         </GridItem>
         <GridItem color={textColor}>
-          <Text fontSize="14px" fontWeight="bold" letterSpacing="2px">ABOUT ASOS</Text>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">About Us</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Careers at ASOS</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Corporate Responsibility</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Investor's Site</Link>
+          <Text 
+            fontSize="14px" 
+            fontWeight="bold" 
+            letterSpacing="2px"
+          >
+            ABOUT ASOS
+          </Text>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+            >
+              About Us
+            </Link>
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+            >
+              Careers at ASOS
+          </Link>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            Corporate Responsibility
+          </Link>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            Investor's Site
+          </Link>
+
         </GridItem>
+
         <GridItem color={textColor}>
-          <Text fontSize="14px" fontWeight="bold" letterSpacing="2px">MORE FROM ASOS</Text>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Mobile and ASOS apps</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">ASOS Marketplace</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Gift Vouchers</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Black Friday</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">ASOS x Thrift+</Link>
-          <Link display={block} color={textColor} marginTop={marginTop} fontSize={fontSize} href="#">Discover the ASOS Credit Card</Link>
+          <Text 
+            fontSize="14px" 
+            fontWeight="bold" 
+            letterSpacing="2px"
+          >
+            MORE FROM ASOS
+          </Text>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            Mobile and ASOS apps
+          </Link>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+              ASOS Marketplace
+          </Link>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            Gift Vouchers
+          </Link>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            Black Friday
+          </Link>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }} 
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            ASOS x Thrift+
+          </Link>
+
+          <Link 
+            _hover={{
+              color: "blue",
+              transition: "color 0.3s ease",
+            }}
+            textDecoration={decoration} 
+            display={block} 
+            color={textColor} 
+            marginTop={marginTop} 
+            fontSize={fontSize} 
+            href="#"
+          >
+            Discover the ASOS Credit Card
+          </Link>
+
         </GridItem>
+        
         <GridItem color={textColor}>
           <Text
             fontSize="14px"
@@ -47,6 +271,11 @@ const Footer = () => {
           <Flex>
 
             <Text
+              _hover={{
+                color: "blue",
+                transition: "color 0.3s ease",
+              }}
+              cursor="pointer"
               fontSize={fontSize}
               color={textColor}
               marginTop={marginTop}
