@@ -13,8 +13,8 @@ const Help = () => {
           fontSize="13px"
           cursor="pointer"
           padding="6px 20px"
-          borderLeft="0.2px solid grey"
-          borderRight="0.2px solid grey"
+          borderLeft="0.2px solid rgba(128, 128, 128, 0.2)"
+          borderRight="0.2px solid rgba(128, 128, 128, 0.2)"
           _hover={{
             color: "blue",
             transition: "color 0.3s ease",
@@ -29,7 +29,7 @@ const Help = () => {
           marginLeft="-10"
           cursor="pointer"
           padding="6px 20px"
-          borderRight="0.2px solid grey"
+          borderRight="0.2px solid rgba(128, 128, 128, 0.2)"
           _hover={{
             color: "blue",
             transition: "color 0.3s ease",
@@ -40,7 +40,7 @@ const Help = () => {
 
         <Flex  
           
-          borderRight="0.2px solid grey"
+          borderRight="0.2px solid rgba(128, 128, 128, 0.2)"
           padding="0px 20px"
           marginLeft="-10"
           
