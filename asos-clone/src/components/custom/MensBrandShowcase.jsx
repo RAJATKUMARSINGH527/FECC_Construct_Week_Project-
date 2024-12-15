@@ -8,13 +8,13 @@ const MensBrandShowcase=()=>{
             name: "Adidas", image: "https://content.asos-media.com/-/media/homepages/unisex/generic-hp/oct-2024/28-brands-update/mw/promo_bau_hp_mw_02---v2.jpg" 
         },
         {
-            name: "Mango", image: "https://content.asos-media.com/-/media/homepages/unisex/generic-hp/oct-2024/28-brands-update/mw/promo_bau_hp_mw_01.jpg"
+            name: "New Balance", image: "https://content.asos-media.com/-/media/homepages/unisex/generic-hp/oct-2024/28-brands-update/mw/promo_bau_hp_mw_01.jpg"
         },
         {
             name: "ASOS Design", image: "https://content.asos-media.com/-/media/homepages/unisex/generic-hp/oct-2024/28-brands-update/mw/promo_bau_hp_mw_03.jpg"
         },
         {
-            name: "Topshop", image: "https://content.asos-media.com/-/media/homepages/unisex/generic-hp/oct-2024/28-brands-update/mw/promo_bau_hp_mw_04.jpg"
+            name: "Topman", image: "https://content.asos-media.com/-/media/homepages/unisex/generic-hp/oct-2024/28-brands-update/mw/promo_bau_hp_mw_04.jpg"
         }
     
     ]

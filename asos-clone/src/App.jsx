@@ -16,6 +16,7 @@ import WomensBrandShowcase from './components/custom/WomensBrandShowcase';
 import MensBrandShowcase from './components/custom/MensBrandShowcase';
 import WomenBrand from './components/custom/WomenBrands';
 import MenBrand from './components/custom/MenBrands';
+import SocialCards from './components/custom/Social&Cards';
 import Year from './components/custom/Year';
 
 
@@ -29,6 +30,7 @@ const App = () => {
     <>
       <Help />
       <Navbar />
+
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products products={products} />} />
@@ -38,6 +40,7 @@ const App = () => {
         <Route path="/product/:id" element={<ProductDetails products={products} />} />
       
       </Routes> */}
+
       <HeroSection />
       <Features />
       <Label/>
@@ -45,7 +48,7 @@ const App = () => {
       <WomenBrand />
       <MensBrandShowcase />
       <MenBrand/>
-      
+      <SocialCards/>
       <Footer />
       <Year/>
     </>
